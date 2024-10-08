@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.11.0" orientation="orthogonal" renderorder="right-down" width="10" height="10" tilewidth="16" tileheight="16" infinite="0" nextlayerid="5" nextobjectid="10">
+ <tileset firstgid="1" source="tileset/tileset_pokemon_sdk.tsx"/>
+ <tileset firstgid="4257" source="tileset/tileset4g.tsx"/>
+ <layer id="1" name="Calque de Tuiles 1" width="10" height="10">
+  <data encoding="csv">
+711,711,711,711,711,711,711,711,711,711,
+711,711,711,711,711,711,711,711,711,711,
+711,711,711,711,711,711,711,711,711,711,
+711,711,711,711,711,711,711,711,711,711,
+711,711,711,711,711,711,711,711,711,711,
+711,711,711,711,711,711,711,711,711,711,
+711,711,711,711,711,711,711,711,711,711,
+711,711,711,711,711,711,711,711,711,711,
+711,711,711,711,711,711,711,711,711,711,
+711,711,711,711,711,711,711,711,711,711
+</data>
+ </layer>
+ <layer id="2" name="Calque de Tuiles 2" width="10" height="10">
+  <data encoding="csv">
+684,674,674,674,674,674,674,674,674,685,
+667,0,0,0,0,0,0,0,0,665,
+667,0,0,0,0,0,0,0,0,665,
+667,0,0,0,0,0,0,0,0,665,
+667,0,0,0,0,0,0,0,0,665,
+667,0,0,0,0,0,0,0,0,665,
+667,0,0,0,0,0,0,0,0,665,
+667,0,0,0,0,0,0,0,0,665,
+667,0,0,0,0,0,0,0,0,665,
+693,658,658,658,658,658,658,658,658,692
+</data>
+ </layer>
+ <layer id="3" name="Calque de Tuiles 3" width="10" height="10">
+  <data encoding="csv">
+0,11068,0,0,0,0,0,0,11068,0,
+0,11208,0,13030,13031,13032,13033,11068,11208,0,
+0,11348,11068,13170,13171,13172,13173,11208,11348,0,
+0,0,11208,13310,13311,13312,13313,11348,0,0,
+0,0,11348,13450,13451,13452,13453,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,10788,0,0,
+0,0,2976,2982,0,0,0,10928,0,0,
+0,0,2974,2975,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <objectgroup id="4" name="cool">
+  <object id="4" name="collision" x="-16" y="-16" width="16" height="192"/>
+  <object id="5" name="collision" x="0" y="-16" width="176" height="16"/>
+  <object id="6" name="collision" x="160" y="0" width="16" height="176"/>
+  <object id="7" name="collision" x="0" y="160" width="160" height="16"/>
+  <object id="8" name="switch cave_0 9" x="32" y="112" width="32" height="32"/>
+  <object id="9" name="spawn cave_0 9" x="93" y="123.5">
+   <point/>
+  </object>
+ </objectgroup>
+</map>
